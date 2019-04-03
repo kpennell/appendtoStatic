@@ -9,7 +9,7 @@ export default ({ data }) => {
       <div>
       
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <h1>{post.frontmatter.date}</h1>
+        <h1>{post.frontmatter.title}</h1>
         <Link to="/">Go back to the homepage</Link>
       </div>
     </Layout>
@@ -21,7 +21,6 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date
       }
     }
   }
