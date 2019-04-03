@@ -1,10 +1,7 @@
 ---
-templateKey: 'about-page'
-title: "About (Dynamic)"
-date: "2019-4-25"
-
+templateKey: about-page
+title: About (Dynamic)
 ---
-
 # About appendTo
 
-Generated dynamically
+Generated dynamically....testing changes!!!
