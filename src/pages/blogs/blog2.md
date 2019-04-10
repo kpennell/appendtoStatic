@@ -1,24 +1,7 @@
 ---
-templateKey: 'single-blog'
+templateKey: single-blog
+title: Blog2
 date: 2019-03-04T15:04:10.000Z
-title: 'Blog2'
-
-description: >-
-  Blog2 is better
+description: Blog2 is better
 ---
-
-This is Blog 2
-
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
-This is Blog 2
+astropub, small batch godard kickstarter sustainable shoreditch raw denim affogato twee. Disrupt normcore lumbersexual, craft beer aesthetic iPhone chambray irony glossier vinyl skateboard tbh fanny pack. Banh mi sartorial hot chicken semiotics roof party PBR&B whatever brunch, kombucha XOXO tumblr helvetica skateboard. Church-key chillwav
