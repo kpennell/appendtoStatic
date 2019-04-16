@@ -9,7 +9,7 @@ class BlogPage extends React.Component {
   render() {
     const { data } = this.props
 
-    console.log(data.allMarkdownRemark.edges)
+    //console.log(data.allMarkdownRemark.edges)
 
 
     const { edges: posts } = data.allMarkdownRemark

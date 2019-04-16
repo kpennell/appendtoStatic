@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
-const BlogPage = ({ data }) => {
+const CoursePage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -15,14 +15,14 @@ const BlogPage = ({ data }) => {
   )
 }
 
-BlogPage.propTypes = {
+CoursePage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default BlogPage
+export default CoursePage
 
-export const BlogPageQuery = graphql`
-  query BlogPage($id: String!) {
+export const CoursePageQuery = graphql`
+  query CoursePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
